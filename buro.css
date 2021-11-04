@@ -10,6 +10,7 @@
     border: #cfcfcf solid thin;
     border-radius: 3px;
     padding: 10px;
+    position: relative;
 }
 
 .newsletter h3{
@@ -39,4 +40,10 @@
 .newsletter #terms{
     position: relative;
     top: 1px;
+}
+
+.newsletter #closex {
+    position: absolute;
+    top: 0;
+    right: 4px;
 }
